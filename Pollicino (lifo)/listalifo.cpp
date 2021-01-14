@@ -63,7 +63,7 @@ void stampa(pollicino& p)
 
 char direzione(pollicino& p)
 {
-	return p->direzione;
+	return top(p);
 }
 
 
